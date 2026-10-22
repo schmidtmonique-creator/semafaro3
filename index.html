@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aprenda sobre comunicação inclusiva, acessibilidade e acolhimento de pessoas autistas no ambiente escolar.">
+  <title>Semáforo da Acessibilidade</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="cabecalho">
+    <a class="logo" href="#inicio">🚦 Semáforo da Acessibilidade</a>
+
+    <nav aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#semaforo">Semáforo</a>
+      <a href="#comunicacao">Comunicação</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#conclusao">Conclusão</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- 1. Página inicial -->
+    <section id="inicio" class="hero">
+      <div class="hero-texto">
+        <span class="etiqueta">EDUCAÇÃO • RESPEITO • INCLUSÃO</span>
+
+        <h1>Pequenas atitudes criam grandes caminhos para a inclusão.</h1>
+
+        <p>
+          O Semáforo da Acessibilidade ensina como tornar a comunicação
+          e a convivência escolar mais acolhedoras para pessoas autistas.
+        </p>
+
+        <a class="botao" href="#semaforo">Explorar o semáforo ↓</a>
+      </div>
+
+      <div class="ilustracao">
+        <div class="poste" aria-hidden="true">
+          <div class="luz luz-verde"></div>
+          <div class="luz luz-amarela"></div>
+          <div class="luz luz-vermelha"></div>
+        </div>
+        <p>Respeitar é incluir!</p>
+      </div>
+    </section>
+
+    <!-- 2. Semáforo interativo -->
+    <section id="semaforo" class="secao">
+      <span class="etiqueta">APRENDA NA PRÁTICA</span>
+      <h2>Como funciona o semáforo?</h2>
+
+      <p class="introducao">
+        Clique em uma das luzes para descobrir qual atitude adotar
+        na comunicação e na convivência escolar.
+      </p>
+
+      <div class="semaforo-layout">
+        <div class="semaforo" aria-label="Semáforo educativo">
+          <button class="luz-botao verde" data-cor="verde"
+            aria-label="Verde: comunicação acolhedora">
+            <span aria-hidden="true">✓</span>
+            <span>VERDE</span>
+            <small>Pode continuar</small>
+          </button>
+
+          <button class="luz-botao amarelo" data-cor="amarelo"
+            aria-label="Amarelo: atenção e adaptação">
+            <span aria-hidden="true">!</span>
+            <span>AMARELO</span>
+            <small>Observe e adapte</small>
+          </button>
+
+          <button class="luz-botao vermelho" data-cor="vermelho"
+            aria-label="Vermelho: pare e reavalie">
+            <span aria-hidden="true">✕</span>
+            <span>VERMELHO</span>
+            <small>Evite essas atitudes</small>
+          </button>
+        </div>
+
+        <article id="mensagem-semaforo" class="mensagem" aria-live="polite">
+          <span class="icone-mensagem" aria-hidden="true">🚦</span>
+          <h3>Escolha uma luz!</h3>
+          <p>
+            Selecione uma das luzes para visualizar orientações
+            sobre comunicação inclusiva.
+          </p>
+        </article>
+      </div>
+
+      <p class="aviso">
+        <strong>Importante:</strong> o semáforo é uma ferramenta educativa,
+        não uma avaliação do comportamento de uma pessoa autista.
+        Cada pessoa tem necessidades, preferências e formas de comunicação
+        próprias.
+      </p>
+    </section>
+
+    <!-- 3. Comunicação inclusiva -->
+    <section id="comunicacao" class="secao secao-clara">
+      <span class="etiqueta">ATITUDES QUE FAZEM A DIFERENÇA</span>
+      <h2>Comunicação inclusiva na escola</h2>
+
+      <p class="introducao">
+        Uma escola acessível respeita as diferenças e oferece diferentes
+        formas de compreender, participar e se expressar.
+      </p>
+
+      <div class="cartoes">
+        <article class="cartao">
+          <span class="cartao-icone" aria-hidden="true">💬</span>
+          <h3>Fale com clareza</h3>
+          <p>
+            Use frases objetivas, linguagem respeitosa e instruções
+            organizadas em etapas.
+          </p>
+        </article>
+
+        <article class="cartao">
+          <span class="cartao-icone" aria-hidden="true">⏳</span>
+          <h3>Respeite o tempo</h3>
+          <p>
+            Dê tempo para a pessoa processar as informações e responder,
+            sem pressioná-la.
+          </p>
+        </article>
+
+        <article class="cartao">
+          <span class="cartao-icone" aria-hidden="true">🖼️</span>
+          <h3>Ofereça alternativas</h3>
+          <p>
+            Utilize textos, imagens, gestos ou recursos de comunicação
+            alternativa, conforme a preferência da pessoa.
+          </p>
+        </article>
+
+        <article class="cartao">
+          <span class="cartao-icone" aria-hidden="true">🤝</span>
+          <h3>Respeite as diferenças</h3>
+          <p>
+            Não presuma que todas as pessoas autistas têm as mesmas
+            necessidades ou experiências.
+          </p>
+        </article>
+
+        <article class="cartao">
+          <span class="cartao-icone" aria-hidden="true">🔇</span>
+          <h3>Cuide dos estímulos</h3>
+          <p>
+            Evite excesso de ruídos, informações e elementos visuais.
+            Sempre que possível, ofereça um ambiente confortável.
+          </p>
+        </article>
+
+        <article class="cartao">
+          <span class="cartao-icone" aria-hidden="true">💚</span>
+          <h3>Pratique o acolhimento</h3>
+          <p>
+            Escute sem julgamentos, respeite os limites e valorize
+            a participação de cada estudante.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. Quiz educativo -->
+    <section id="quiz" class="secao">
+      <span class="etiqueta">TESTE SEUS CONHECIMENTOS</span>
+      <h2>Quiz da acessibilidade</h2>
+
+      <p class="introducao">
+        Responda às perguntas e descubra o que você aprendeu!
+      </p>
+
+      <form id="form-quiz">
+        <fieldset class="pergunta">
+          <legend>1. Como devemos falar com uma pessoa autista?</legend>
+
+          <label>
+            <input type="radio" name="p1" value="a" required>
+            Gritando para chamar sua atenção.
+          </label>
+
+          <label>
+            <input type="radio" name="p1" value="b">
+            Com respeito, clareza e paciência.
+          </label>
+
+          <label>
+            <input type="radio" name="p1" value="c">
+            Usando sempre frases complicadas.
+          </label>
+        </fieldset>
+
+        <fieldset class="pergunta">
+          <legend>2. O que fazer quando uma explicação não é compreendida?</legend>
+
+          <label>
+            <input type="radio" name="p2" value="a" required>
+            Repetir mais alto e exigir uma resposta imediata.
+          </label>
+
+          <label>
+            <input type="radio" name="p2" value="b">
+            Desistir de explicar.
+          </label>
+
+          <label>
+            <input type="radio" name="p2" value="c">
+            Reformular a explicação e oferecer alternativas.
+          </label>
+        </fieldset>
+
+        <fieldset class="pergunta">
+          <legend>3. Todas as pessoas autistas são iguais?</legend>
+
+          <label>
+            <input type="radio" name="p3" value="a" required>
+            Sim, todas têm as mesmas necessidades.
+          </label>
+
+          <label>
+            <input type="radio" name="p3" value="b">
+            Não, cada pessoa tem suas particularidades.
+          </label>
+
+          <label>
+            <input type="radio" name="p3" value="c">
+            Sim, todas se comunicam da mesma forma.
+          </label>
+        </fieldset>
+
+        <fieldset class="pergunta">
+          <legend>4. O que significa a luz amarela?</legend>
+
+          <label>
+            <input type="radio" name="p4" value="a" required>
+            Prestar atenção e adaptar a comunicação.
+          </label>
+
+          <label>
+            <input type="radio" name="p4" value="b">
+            Ignorar as necessidades da pessoa.
+          </label>
+
+          <label>
+            <input type="radio" name="p4" value="c">
+            Interromper toda comunicação.
+          </label>
+        </fieldset>
+
+        <fieldset class="pergunta">
+          <legend>5. Qual atitude contribui para a inclusão escolar?</legend>
+
+          <label>
+            <input type="radio" name="p5" value="a" required>
+            Pressionar todos a agir da mesma maneira.
+          </label>
+
+          <label>
+            <input type="radio" name="p5" value="b">
+            Ignorar as dificuldades de comunicação.
+          </label>
+
+          <label>
+            <input type="radio" name="p5" value="c">
+            Respeitar os limites e as diferentes formas de expressão.
+          </label>
+        </fieldset>
+
+        <button class="botao" type="submit">Corrigir minhas respostas</button>
+        <button class="botao botao-secundario" type="reset">Refazer o quiz</button>
+      </form>
+
+      <div id="resultado-quiz" class="resultado" role="status"
+        aria-live="polite" tabindex="-1" hidden></div>
+    </section>
+
+    <!-- 5. Conclusão -->
+    <section id="conclusao" class="conclusao">
+      <span class="etiqueta">JUNTOS PELA INCLUSÃO</span>
+      <h2>Respeitar as diferenças é construir um mundo melhor.</h2>
+
+      <p>
+        A inclusão começa com pequenas atitudes: ouvir, acolher,
+        adaptar e respeitar. Cada pessoa tem seu próprio jeito de
+        aprender, sentir e se comunicar.
+      </p>
+
+      <p class="frase-final">
+        <strong>Mais respeito. Mais acessibilidade. Mais inclusão!</strong>
+      </p>
+
+      <a href="#inicio" class="botao botao-claro">Voltar ao início ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Semáforo da Acessibilidade | Projeto educativo escolar</p>
+    <p>Inclusão se faz com respeito, empatia e acessibilidade.</p>
+  </footer>
+</body>
+</html>
